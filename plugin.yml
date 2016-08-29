@@ -8,3 +8,4 @@ permission:
 commands:
   autofeed:
     description: Toggle autofeed on or off.
+    aliases: [af]
