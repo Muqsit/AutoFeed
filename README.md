@@ -4,7 +4,7 @@
 
 **Commands:** /autofeed
 
-**Permissions:** - auto.feed
+**Permissions:** - autofeed.me
 
 **Config:** Nothing, really easy without a config :)
 
