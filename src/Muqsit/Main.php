@@ -13,13 +13,14 @@
 * the Free Software Foundation, either version 3 of the License, or
 * (at your option) any later version.
 */
-
 namespace Muqsit;
+
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
 use pocketmine\command\{Command, CommandSender};
 use pocketmine\command\{TextFormat as TF, Config};
+use pocketmine\event\player\PlayerJoinEvent;
 
 class Main extends PluginBase implements Listener{
 
@@ -34,6 +35,7 @@ class Main extends PluginBase implements Listener{
     $p = $e->getPlayer();
     if(!isset($this->feedings->get($p->getName))) $this->feedings->set($p->getName(), false);
   }
+  
   public function toggleAutoFeed(Player $player){
     if($this->feedings->get($player->getName()) === "false"){
       $this->feedings->set($player->getName(), "true");
