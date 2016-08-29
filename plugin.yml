@@ -1,0 +1,10 @@
+name: AutoFeed
+api: 2.0.0
+main: Muqsit\Main
+version: 1.0
+permission:
+  auto.feed:
+    default: false
+commands:
+  autofeed:
+    description: Toggle autofeed on or off.
