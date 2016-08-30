@@ -1,5 +1,5 @@
 # AutoFeed
-##### Recommended: Genisys. (Not sure if ClearSky has implemented some functions).
+##### Compatible ONLY with Genisys.
 *This plugin lets you eat with just a command, it will take the food from your inventory and resupply your foodbars.*
 
 **Commands:**
