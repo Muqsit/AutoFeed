@@ -1,5 +1,5 @@
 name: AutoFeed
-api: 2.0.0
+api: 3.0.0
 main: Muqsit\Main
 version: 1.0
 permission:
